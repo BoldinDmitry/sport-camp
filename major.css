@@ -1,0 +1,40 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "FUTURA Reg";
+  font-weight: auto;
+  src: url(font/FuturaBookC.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "FUTURA BOLD";
+  font-weight: auto;
+  src: url(font/FuturaDemiC.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Five years";
+  font-weight: auto;
+  src: url(font/FYL Demo.otf)
+  format('opentype');
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #000;
+}
+h1, p, a{
+ color: #fff;
+}
+h1{
+  font-size: 3vw;
+}
+p{
+  font-size: 1.3vw;
+}
+header{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-content: space-between;
+}
