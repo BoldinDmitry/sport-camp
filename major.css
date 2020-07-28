@@ -15,26 +15,57 @@
 @font-face {
   font-family: "Five years";
   font-weight: auto;
-  src: url(font/FYL Demo.otf)
+  src: url(font/FYLDemo.otf)
   format('opentype');
+}
+
+:root {
+  --orange: #E26B13;
 }
 
 body{
   overflow-x: hidden;
   background-color: #000;
 }
-h1, p, a{
+h1, h2, p, li, a{
  color: #fff;
 }
 h1{
   font-size: 3vw;
+  font-family: "FUTURA BOLD", helvetica, sans-serif;
 }
-p{
+h2{
+  font-size: 2vw;
+  font-family: "FUTURA BOLD", helvetica, sans-serif;
+}
+p, li{
   font-size: 1.3vw;
+    font-family: "FUTURA reg", helvetica, sans-serif;
+}
+a, h3{
+  font-size: 1.5vw;
+  font-family: "Five years", helvetica, sans-serif;
+  text-decoration: none;
+}
+ul li{
+  list-style-type: none;
 }
 header{
+  margin: 4vw;
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
-  align-content: space-between;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+header nav{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+header nav a{
+  margin-left: 10vw;
+}
+header nav a:hover{
+  color: var(--orange);
 }

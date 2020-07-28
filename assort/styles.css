@@ -1,0 +1,58 @@
+@import "../reset.css";
+@import "../major.css";
+
+
+nav a:nth-of-type(2){
+  text-decoration: underline;
+}
+header img{
+  height: 2vw;
+  width: auto;
+}
+.bike{
+  display: flex;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.bike img{
+  height: 600px;
+  width: auto;
+  margin-left: -20vw;
+}
+.discript img{
+  height: 20vw;
+  width: auto;
+  margin-left: 0vw;
+}
+.discript{
+  display: flex;
+  margin-left: 15vw;
+  margin-top: 11vw;
+}
+.text{
+  margin-left: 3vw;
+}
+.text ul{
+  margin-top: 3vw;
+}
+.text a{
+  background-color: var(--orange);
+  padding: 1vw;
+  margin-top: 20vw;
+}
+.bike:nth-of-type(2),
+.bike:nth-of-type(4),
+.bike:nth-of-type(6)
+{
+  background-color: #fff;
+}
+
+.bike:nth-of-type(2) h2, .bike:nth-of-type(2) li{
+  color: #000;
+}
+.bike:nth-of-type(2) img{
+  margin-left: 5vw;
+}
+.bike:nth-of-type(2) .text{
+  width: 30vw;
+}
