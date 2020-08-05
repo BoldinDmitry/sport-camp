@@ -64,7 +64,9 @@ header{
   flex-flow: row;
   justify-content: center;
   align-items: baseline;
-
+}
+header img{
+  width: 20vw;
 }
 header nav{
   display: flex;
@@ -85,6 +87,7 @@ footer{
   position: relative;
   display: flex;
   justify-content: space-around;
+  margin-top: 10vw;
 }
 footer ul li{
   padding-top: 1vw;
@@ -92,7 +95,9 @@ footer ul li{
 footer > img{
   position: absolute;
   z-index: -2;
-  margin-left: 25vw;
+  margin-left: 70vw;
+  margin-top: -20vw;
+  width: 30vw;
 }
 footer .third-column img{
   height: 2vw;
