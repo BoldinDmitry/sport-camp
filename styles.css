@@ -216,15 +216,16 @@ header a{
 .coaches .name .hidden{
   margin-top: 4vw;
   margin-left: 2vw;
-  display: none;
+  /* margin-top: -5vw; */
+  opacity: 0;
 }
 .coaches .name .hidden h2{
  font-size: 1.6vw;
  padding-bottom: 0.7vw;
 }
 .coaches .name img{
- width: 312px;
- height: 485px;
+ width: 21.2vw;
+ height: 32vw;
  filter: grayscale(100%);
 }
 .coaches .name img:hover{
