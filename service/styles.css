@@ -1,0 +1,139 @@
+@import "../reset.css";
+@import "../major.css";
+
+
+body{
+  background-color: #fff;
+}
+header nav a{
+  color: #000;
+}
+
+
+.road{
+  padding-top: 20vw;
+  padding-left: 7vw;
+}
+.icon_1,
+.icon_2,
+.icon_3,
+.icon_4{
+  position: absolute;
+}
+.icon_1 .circ,
+.icon_2 .circ,
+.icon_3 .circ,
+.icon_4 .circ{
+  background-color: none;
+  border-radius: 50vw;
+  border: 0.15vw solid #000;
+  width: 4.7vw;
+  height: 4.7vw;
+}
+.icon_2 .circ img,
+.icon_3 .circ img{
+  justify-content: center;
+  padding-left: 0.6vw;
+  padding-top: 1.3vw;
+}
+.icon_1 .circ img{
+  padding-left: 1vw;
+  padding-top: 0.7vw;
+}
+.icon_4 .circ img{
+  padding-left: 0.7vw;
+  padding-top: 0.8vw;
+}
+.icon_1{
+  left: 84vw;
+  top: 15vw;
+}
+.icon_2{
+  left: 16.6vw;
+  top: 59.8vw;
+}
+.icon_3{
+  left: 46.5vw;
+  top: 93vw;
+}
+.icon_4{
+  left: 16.8vw;
+  top: 144vw;
+}
+
+
+
+.service{
+  /* position: absolute; */
+  display: flex;
+  justify-content: flex-start;
+}
+.service img{
+  width: 35vw;
+}
+.service .discript p{
+  margin-bottom: 4vw;
+}
+.service .discript p,
+.service .discript h2{
+  color: #000;
+  width: 25vw;
+  padding-top: 2vw;
+}
+.service .discript a{
+color: #fff;
+background-color: var(--orange);
+padding: 0.7vw;
+}
+.service:first-child{
+  position: absolute;
+  padding-top: 15vw;
+}
+.service:first-child .discript{
+  margin-left: 20vw;
+  margin-top: 5vw;
+}
+
+.icon_2 + .service{
+  position: absolute;
+  top: 60vw;
+  left: 30vw;
+}
+.icon_2 + .service img{
+  margin-left: 10vw;
+}
+.icon_2 + .service .discript{
+  margin-top: 6vw;
+}
+
+
+.icon_3 + .service{
+  position: absolute;
+  top: 100vw;
+  left: 0vw;
+}
+.icon_3 + .service .discript{
+  margin-left: 34vw;
+  margin-top: 6vw;
+}
+
+.icon_4 + .service{
+  top: 150vw;
+  margin-left: 10vw;
+}
+.icon_4 + .service img{
+  margin-left: 30vw;
+}
+.icon_4 + .service .discript{
+  margin-top: 6vw;
+}
+
+
+
+
+footer ul li{
+  color: #000;
+}
+footer > img{
+padding-top: 6vw;
+}

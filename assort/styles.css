@@ -2,9 +2,6 @@
 @import "../major.css";
 
 
-nav a:nth-of-type(2){
-  text-decoration: underline;
-}
 header img{
   height: 2vw;
   width: auto;

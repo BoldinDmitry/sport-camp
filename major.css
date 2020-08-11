@@ -62,7 +62,7 @@ header{
   margin: 3vw;
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: baseline;
 }
 header img{
@@ -73,6 +73,7 @@ header nav{
   flex-flow: row;
   justify-content: flex-end;
   margin-left: 6vw;
+  align-items: baseline;
 
 }
 header nav a{
@@ -80,6 +81,9 @@ header nav a{
 }
 header nav a:hover{
   color: var(--orange);
+}
+a:hover{
+  cursor: pointer;
 }
 
 
