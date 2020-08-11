@@ -88,10 +88,6 @@ header a{
   z-index: -2;
   filter: brightness(0.4);
 }
-/* .trail .route img{
-  max-width: 70vw;
-  max-height: 30vw;
-} */
 
 .trail .route p{
   position: absolute;
@@ -193,6 +189,11 @@ header a{
   margin-top: -6vw;
   margin-left: 6vw;
 }
+.trail .btn:hover{
+  opacity: 0.7;
+  transform: scale(1.05);
+  transition: 200ms ease;
+}
 
 .trails + h3{
   position: fixed;
@@ -217,7 +218,7 @@ header a{
   margin-top: 4vw;
   margin-left: 2vw;
   /* margin-top: -5vw; */
-  opacity: 0;
+  /* opacity: 0; */
 }
 .coaches .name .hidden h2{
  font-size: 1.6vw;
