@@ -142,7 +142,6 @@ footer .third-column img{
     margin-left: 10vw;
     padding-top: 1.5vw;
     text-align: right;
-    color: var(--orange);
   }
 
 footer{
@@ -155,7 +154,7 @@ footer{
     position: absolute;
     z-index: -2;
     margin-left: 30vw;
-    margin-top: -15vw;
+    margin-top: -5vw;
     width: 70vw;
   }
     footer .second-column,

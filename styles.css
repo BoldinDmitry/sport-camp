@@ -22,7 +22,7 @@ header a{
   align-items: baseline;
   margin-top: 0.5vw;
 }
-.wrapper .top .slider div:first-child{
+.wrapper .top .slider > div{
   width: 12vw;
   height: 0.15vw;
   background-color: #fff;
@@ -277,6 +277,19 @@ header a{
   .wrapper .top .slider{
     margin-top: 1.5vw;
   }
+  .wrapper .top .slider > div{
+    width: 17vw;
+    height: 0.3vw;
+  }
+  .wrapper .top .slider div:nth-of-type(2){
+    width: 2vw;
+    height: 2vw;
+  }
+  .wrapper .top .slider a{
+    margin-left: 3vw;
+  }
+
+
 
   .top + h3,
   .service + h3{
@@ -319,7 +332,7 @@ header a{
     position: absolute;
     width: 100vw;
     z-index: -2;
-    filter: brightness(0.4);
+    filter: brightness(0.6);
   }
   .trail .route p{
     font-size: 3vw;
