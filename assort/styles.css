@@ -2,6 +2,12 @@
 @import "../major.css";
 
 
+
+header nav .underline{
+  left: 65vw;
+  width: 20vw;
+  transition: 400ms ease-in-out;
+}
 header img{
   height: 2vw;
   width: auto;

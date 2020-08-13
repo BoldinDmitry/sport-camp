@@ -4,10 +4,18 @@
 
 body{
   background-color: #000;
+    overflow-x: hidden;
 }
 header a{
   color: #000;
 }
+
+header nav .underline{
+  left: 0vw;
+  width: 20vw;
+  transition: 400ms ease-in-out;
+}
+
 .wrapper .top img{
   width: 100%;
   height: auto;
@@ -19,7 +27,7 @@ header a{
 }
 .wrapper .top .slider{
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-top: 0.5vw;
 }
 .wrapper .top .slider > div{
@@ -262,7 +270,7 @@ header a{
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 520px) {
   body{
     overflow-x: hidden;
   }
@@ -288,9 +296,6 @@ header a{
   .wrapper .top .slider a{
     margin-left: 3vw;
   }
-
-
-
   .top + h3,
   .service + h3{
    display: none;
@@ -302,10 +307,7 @@ header a{
     margin-top: 15vw;
   }
   .service a h2{
-    color: #fff;
-    text-transform: uppercase;
     margin-left: 4vw;
-    font-size: 5vw;
   }
   .service .bike > img{
     display: block;
@@ -313,7 +315,6 @@ header a{
   .service .bike img:nth-of-type(2){
     display: none;
   }
-
   .trail{
     margin-left: 0;
     margin-top: 20vw;
@@ -325,7 +326,7 @@ header a{
     margin-top: 17vw;
   }
   .trail:last-child{
-    margin-top: 12vw;
+    margin-top: 19vw;
   }
   .trail > img{
     transform: scale(1.5);
@@ -335,10 +336,8 @@ header a{
     filter: brightness(0.6);
   }
   .trail .route p{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
-
-
   .trail:first-child .route img{
     width: 90vw;
     margin-left: 5vw;
@@ -368,10 +367,11 @@ header a{
   .trail:nth-of-type(3) .route img{
     width: 90vw;
     margin-left: 4vw;
-    margin-top: 1vw;
+    margin-top: -6vw;
   }
   .trail:nth-of-type(3) .route p:first-child{
-    margin-top: -3vw;
+    margin-top: -7vw;
+    margin-left: 14vw;
   }
   .trail:nth-of-type(3) .route p:last-child{
     margin-left: 75vw;
@@ -386,10 +386,14 @@ header a{
     margin-left: 5vw;
     margin-top: -4vw;
   }
+  .trail:nth-of-type(4) .route p:last-child{
+    margin-top: 2vw;
+  }
 
   .rating{
     align-items: center;
     margin-left: 75vw;
+    margin-top: -7vw;
   }
   .rating .stars img{
     width: 4.5vw;
@@ -398,12 +402,8 @@ header a{
     font-size: 17vw;
   }
   .trail .btn{
-    background-color: var(--orange);
-    width: auto;
     padding: 1.7vw;
-    width: 22vw;
-    margin-top: -6vw;
-    margin-left: 6vw;
+    width: 19vw;
   }
   .trail:nth-of-type(3) .btn{
     margin-bottom: 2vw;
@@ -437,10 +437,6 @@ header a{
    width: 31.8vw;
    height: 48vw;
   }
-  .coaches .name:nth-of-type(3),
-  .coaches .name:last-child{
-    margin-top: 3vw;
-  }
 
 
 
@@ -454,5 +450,13 @@ header a{
   }
   .about span:last-child{
     font-size: 4vw;
+  }
+
+}
+@media (max-width: 414px) {
+
+  .trail .btn{
+    padding: 1.7vw;
+    width: 22vw;
   }
 }
