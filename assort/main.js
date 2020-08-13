@@ -1,13 +1,14 @@
 let line = document.querySelector('#under')
+let live = document.querySelector('#accom')
 let bikes = document.querySelector('#assort')
 let serve = document.querySelector('#serve')
-bikes.onmouseover = function(){
-  line.style.left = '64vw'
-  line.style.width = '10.5vw'
-}
-bikes.onmouseout = function(){
+live.onmouseover = function(){
   line.style.left = '45vw'
   line.style.width = '9vw'
+}
+live.onmouseout = function(){
+  line.style.left = '64vw'
+  line.style.width = '10.5vw'
 }
 
 serve.onmouseover = function(){
@@ -15,6 +16,13 @@ serve.onmouseover = function(){
   line.style.width = '5.5vw'
 }
 serve.onmouseout = function(){
-  line.style.left = '45vw'
-  line.style.width = '9vw'
+  line.style.left = '64vw'
+  line.style.width = '10.5vw'
+}
+
+let btn = document.querySelectorAll('#btn')
+let open = document.querySelector('#form iframe')
+
+btn.onclick = function(){
+  open.style.display = 'block'
 }

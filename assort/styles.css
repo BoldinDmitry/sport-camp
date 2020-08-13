@@ -12,6 +12,15 @@ header img{
   height: 2vw;
   width: auto;
 }
+
+
+.form iframe{
+  position: fixed;
+  margin-left: 30vw;
+  margin-top: 10vw;
+  width: 40vw;
+  display: none;
+}
 .bike{
   display: flex;
   padding-top: 10vw;
@@ -22,6 +31,12 @@ header img{
   width: auto;
   margin-left: -20vw;
 }
+/* .bike:nth-of-type(1) img:first-child:hover,
+.bike:nth-of-type(3) img:first-child:hover,
+.bike:nth-of-type(5) img:first-child:hover{
+  padding-left: 20vw;
+  transition: 200ms ease;
+} */
 .discript img{
   height: 20vw;
   width: auto;
@@ -50,6 +65,11 @@ header img{
 .bike:nth-of-type(6){
   background-color: #fff;
 }
+.bike:nth-of-type(6){
+  padding-bottom: 20vw;
+  margin-bottom: -40vw;
+}
+
 
 .bike:nth-of-type(2) h2, .bike:nth-of-type(2) li,
 .bike:nth-of-type(4) h2, .bike:nth-of-type(4) li,
@@ -61,6 +81,12 @@ header img{
 .bike:nth-of-type(6) img:last-child{
   margin-left: 20vw;
 }
+/* .bike:nth-of-type(2) img:last-child:hover,
+.bike:nth-of-type(4) img:last-child:hover,
+.bike:nth-of-type(6) img:last-child:hover{
+  margin-left: -20vw;
+  transition: 200ms ease;
+} */
 
 .bike:nth-of-type(2) .text,
 .bike:nth-of-type(4) .text,
@@ -82,7 +108,8 @@ header img{
 
 
 footer{
-  background-color: #fff;
+  position: absolute;
+  top: 20vw;
 }
 footer ul li{
   color: #000;
