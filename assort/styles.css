@@ -8,7 +8,7 @@ header nav .underline{
   width: 20vw;
   transition: 400ms ease-in-out;
 }
-header img{
+header a img{
   height: 2vw;
   width: auto;
 }
@@ -27,7 +27,8 @@ header img{
   padding-bottom: 4vw;
 }
 .bike img{
-  height: 600px;
+  height: 40vw;
+  width: 90vw;
   width: auto;
   margin-left: -20vw;
 }
@@ -50,8 +51,12 @@ header img{
 .text{
   margin-left: 3vw;
 }
-.text ul{
+.text ul {
   margin-top: 3vw;
+  font-size: 3vw;
+}
+.text ul li{
+  font-size: 1.5vw;
 }
 .text + a{
   background-color: var(--orange);
@@ -59,6 +64,8 @@ header img{
   margin-top: 27vw;
   margin-left: -30vw;
 }
+
+
 
 .bike:nth-of-type(2),
 .bike:nth-of-type(4),
@@ -120,4 +127,85 @@ footer > img{
   margin-left: 70vw;
   margin-top: -20vw;
   width: 30vw;
+}
+
+@media (max-width: 520px) {
+
+body{
+  overflow-x: hidden
+}
+
+
+header a img{
+ height: 5vw;
+ margin-left: 5vw;
+}
+
+.bike{
+  flex-flow: column;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+.bike:first-child{
+  padding-top: 30vw;
+}
+.bike img{
+  width: 90vw;
+  height: 52vw;
+  margin-left: 5vw;
+}
+.discript img{
+  height: 30vw;
+  width: auto;
+  margin-left: 10vw;
+}
+.discript{
+  margin-left: 0;
+}
+
+
+.text h2{
+  font-size: 4vw;
+}
+.text ul{
+  padding-bottom: 10vw;
+}
+.text ul li{
+  font-size: 3vw;
+}
+.text + a{
+  padding: 2vw;
+  position: absolute;
+  margin-top: 33vw;
+  margin-left: 17vw;
+}
+
+
+.bike:nth-of-type(2) img:last-child,
+.bike:nth-of-type(4) img:last-child,
+.bike:nth-of-type(6) img:last-child{
+  margin-left: 5vw;
+  padding-top: 10vw;
+}
+
+.bike:nth-of-type(4) img:last-child{
+  width: 80vw;
+}
+.bike:nth-of-type(6) img:last-child{
+  height: 70vw;
+}
+.bike:nth-of-type(6){
+  padding-bottom: 60vw;
+}
+
+.bike:nth-of-type(2) h2, .bike:nth-of-type(2) li,
+.bike:nth-of-type(4) h2, .bike:nth-of-type(4) li,
+.bike:nth-of-type(6) h2, .bike:nth-of-type(6) li{
+  width: 60vw;
+}
+footer{
+  position: absolute;
+  top: -23vw;
+}
+
 }
