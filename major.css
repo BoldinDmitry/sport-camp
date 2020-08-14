@@ -76,14 +76,14 @@ header nav{
   align-items: baseline;
 }
 
-header nav .underline{
+/* header nav .underline{
   position: absolute;
   background-color: #fff;
   width: 9.1vw;
   height: 0.15vw;
   margin-top: 1.5vw;
   left: 10vw;
-}
+} */
 header nav a{
   margin-left: 10vw;
   padding-top: -2vw;
