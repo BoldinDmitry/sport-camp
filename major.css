@@ -148,7 +148,7 @@ footer .third-column img{
     margin-top: 0vw;
   }
   header nav a{
-    margin-left: 25vw;
+    margin-left: 20vw;
     padding-top: 1.5vw;
     text-align: right;
   }
@@ -158,7 +158,7 @@ footer{
   flex-flow: column;
   align-items: center;
   margin-top: 15vw;
-      line-height: 1.3;
+  line-height: 1.3;
 }
   footer > img{
     margin-left: 30vw;

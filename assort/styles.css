@@ -198,8 +198,8 @@ header a img{
   width: 60vw;
 }
 footer{
-  position: absolute;
-  top: -23vw;
+  margin-top: 780vw;
+  margin-left: 30vw;
 }
 
 }

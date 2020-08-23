@@ -205,6 +205,10 @@ padding-left: 15vw;
   .form{
     display: none;
   }
+  .wrapper .form{
+    display: none;
+  
+  }
 
   .wrapper .central{
     display: flex;
