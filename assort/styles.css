@@ -3,24 +3,67 @@
 
 
 
-header nav .underline{
+/* header nav .underline{
   left: 68vw;
   width: 20vw;
   transition: 400ms ease-in-out;
-}
-header a img{
-  height: 2vw;
-  width: auto;
-}
+} */
 
 
-.form iframe{
+
+/* form */
+.overlay{
   position: fixed;
-  margin-left: 30vw;
-  margin-top: 10vw;
-  width: 40vw;
+  z-index: 10;
   display: none;
+  transition: 300ms ease-in-out;
 }
+.overlay .form img{
+  width: 1.5vw;
+  height: auto;
+  padding: 1vw;
+  padding-bottom: 0vw;
+  margin-left: 26.5vw;
+}
+.overlay .form img:last-child{
+  width: 3vw;
+  margin-left: 13vw;
+  margin-top: -1vw;
+}
+
+.overlay .form img:first-child:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.overlay .form{
+  background-color: #fff;
+  width: 30vw;
+  height: 20vw;
+  position: absolute;
+  z-index: 11;
+  margin: 15vw 0 auto 35vw;
+}
+
+.overlay h2{
+  font-size: 1.5vw;
+  padding: 1vw 0 1vw 0vw;
+  font-family: "Five years", helvetica, sans-serif;
+  text-align: center;
+  color: #000;
+}
+.overlay .form > h2{
+  margin-top: 1vw;
+}
+.overlay p{
+  font-family: "FUTURA BOLD", helvetica, sans-serif;
+  color: var(--orange);
+  text-align: center;
+  line-height: 2;
+}
+/* end form */
+
+
 .bike{
   display: flex;
   padding-top: 10vw;
@@ -57,6 +100,9 @@ header a img{
   padding: 1vw;
   margin-top: 27vw;
   margin-left: -30vw;
+}
+.text + a:hover{
+opacity: 0.7;
 }
 
 
@@ -109,7 +155,6 @@ header a img{
 
 
 footer{
-  position: absolute;
   top: 20vw;
 }
 footer ul li{
@@ -117,9 +162,9 @@ footer ul li{
 }
 footer > img{
   position: absolute;
-  z-index: -2;
-  margin-left: 70vw;
-  margin-top: -20vw;
+  z-index: 2;
+  margin-left: -70vw;
+  margin-top: -12vw;
   width: 30vw;
 }
 
@@ -197,6 +242,33 @@ header a img{
 .bike:nth-of-type(6) h2, .bike:nth-of-type(6) li{
   width: 60vw;
 }
+
+
+/* form */
+.overlay .form img{
+  width: 5vw;
+  margin-left: 81vw;
+  padding: 2vw;
+}
+.overlay .form img:last-child{
+  width: 10vw;
+  margin-left: 40vw;
+}
+.overlay .form{
+  width: 90vw;
+  height: 50vw;
+  margin: 60vw 0 auto 5vw;
+}
+.overlay h2{
+  font-size: 4vw;
+  padding: 1vw 0 1vw 0vw;
+}
+.overlay p{
+  text-align: center;
+  line-height: 2;
+}
+/* end form */
+
 footer{
   margin-top: 780vw;
   margin-left: 30vw;

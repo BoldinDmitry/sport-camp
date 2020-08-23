@@ -13,17 +13,30 @@
       <a href="../index.html"><img src="../img/logo_white.svg" alt=""></a>
       <nav>
         <a href="../resort/index.html" id="accom">проживание</a>
-        <div class="underline" id="under"></div>
+        <!-- <div class="underline" id="under"></div> -->
         <a href="index.html" id="assort">ассортимент</a>
         <a href="../service/index.html" id="serve">услуги</a>
       </nav>
     </header>
 
-    <div class="form" id="form">
-      <script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/5f326e33fce4f5a5f678d733/?iframe=1"  `SameSite=None` frameborder="4" name="ya-form-5f326e33fce4f5a5f678d733"></iframe>
+    <div class="overlay">
+     <div class="form">
+        <img src="../img/black_cross.svg" alt="" id="cross">
+       <h2>Напишите или позвоните нам:</h2>
+       <p>+7 (495) 233-00-85</p>
+       <p>sport-camp23@ya.ru</p>
+       <h2>Мы ответим в течение 2 часов!</h2>
+       <img src="../img/black_bike.svg" alt="">
+     </div>
+     <img src="../img/blurred_fog.png"
+    alt="">
     </div>
+
+    <!-- <div class="form" id="form">
+      <script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/5f326e33fce4f5a5f678d733/?iframe=1"  `SameSite=None` frameborder="4" name="ya-form-5f326e33fce4f5a5f678d733"></iframe>
+    </div> -->
     <div class="assort">
-      <div class="bike">
+      <div class="bike" id="bike_1">
         <img src="../img/format.png" alt="">
         <div class="discript">
           <img src="../img/side.svg" alt="">
@@ -40,11 +53,11 @@
               <li>вес велосипеда 14 кг</li>
             </ul>
           </div>
-          <a href="#" id="btn">забронировать</a>
+          <a href="#" id="btn1">забронировать</a>
         </div>
       </div>
 
-      <div class="bike">
+      <div class="bike" id="bike_2">
         <div class="discript">
           <img src="../img/side.svg" alt="">
           <div class="text">
@@ -60,12 +73,12 @@
               <li>вес велосипеда 14 кг</li>
             </ul>
           </div>
-          <a href="#" id="btn">забронировать</a>
+          <a href="#bike2" id="btn2">забронировать</a>
         </div>
         <img src="../img/scott.png" alt="">
       </div>
 
-      <div class="bike">
+      <div class="bike" id="bike_3">
         <img src="../img/welt.png" alt="">
         <div class="discript">
           <img src="../img/side.svg" alt="">
@@ -82,11 +95,11 @@
               <li>вес велосипеда 14 кг</li>
             </ul>
           </div>
-          <a href="#" id="btn">забронировать</a>
+          <a href="#bike3" id="btn3">забронировать</a>
         </div>
       </div>
 
-      <div class="bike">
+      <div class="bike" id="bike_4">
         <div class="discript">
           <img src="../img/side.svg" alt="">
           <div class="text">
@@ -102,12 +115,12 @@
               <li>вес велосипеда 14 кг</li>
             </ul>
           </div>
-          <a href="#" id="btn">забронировать</a>
+          <a href="#bike4" id="btn4">забронировать</a>
         </div>
         <img src="../img/aspect.png" alt="">
       </div>
 
-      <div class="bike">
+      <div class="bike" id="bike_5">
         <img src="../img/cube.png" alt="">
         <div class="discript">
           <img src="../img/side.svg" alt="">
@@ -124,12 +137,12 @@
               <li>вес велосипеда 14 кг</li>
             </ul>
           </div>
-          <a href="#" id="btn">забронировать</a>
+          <a href="#bike5" id="btn5">забронировать</a>
         </div>
       </div>
 
 
-      <div class="bike">
+      <div class="bike" id="bike_6">
         <div class="discript">
           <img src="../img/side.svg" alt="">
           <div class="text">
@@ -145,7 +158,7 @@
               <li>вес велосипеда 14 кг</li>
             </ul>
           </div>
-          <a href="#" id="btn">забронировать</a>
+          <a href="#bike6" id="btn6">забронировать</a>
         </div>
         <img src="../img/sup.jpg" alt="">
       </div>
@@ -156,7 +169,7 @@
 
 
     <footer>
-      <img src="img/assort_wheel.svg" alt="">
+      <img src="../img/assort_wheel.svg" alt="">
       <div class="first-column">
         <ul>
           <li>veloexpert24@yandex.ru</li>

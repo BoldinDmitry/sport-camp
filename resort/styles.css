@@ -2,11 +2,67 @@
 @import "../major.css";
 
 
-header nav .underline{
+/* header nav .underline{
   left: 45vw;
   transition: 300ms ease-in-out;
+} */
+
+
+
+/* form */
+.overlay{
+  position: fixed;
+  z-index: 10;
+  display: none;
+  transition: 300ms ease-in-out;
 }
-.wrapper .top img{
+.overlay .form img{
+  width: 1.5vw;
+  height: auto;
+  padding: 1vw;
+  padding-bottom: 0vw;
+  margin-left: 26.5vw;
+}
+.overlay .form img:last-child{
+  width: 3vw;
+  margin-left: 13vw;
+  margin-top: -1vw;
+}
+
+.overlay .form img:first-child:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.overlay .form{
+  background-color: #fff;
+  width: 30vw;
+  height: 20vw;
+  position: absolute;
+  z-index: 11;
+  margin: 15vw 0 auto 35vw;
+}
+
+.overlay h2{
+  font-size: 1.5vw;
+  padding: 1vw 0 1vw 0vw;
+  font-family: "Five years", helvetica, sans-serif;
+  text-align: center;
+  color: #000;
+}
+.overlay .form > h2{
+  margin-top: 1vw;
+}
+.overlay p{
+  font-family: "FUTURA BOLD", helvetica, sans-serif;
+  color: var(--orange);
+  text-align: center;
+  line-height: 2;
+}
+/* end form */
+
+
+.wrapper .top > img{
   width: 100%;
   height: auto;
   position: absolute;
@@ -16,7 +72,6 @@ header nav .underline{
 }
 .wrapper .form{
   position: absolute;
-  /* background-color: #fff; */
   padding: 2vw;
   height: 24vw;
   width: 23vw;
@@ -24,9 +79,29 @@ header nav .underline{
   /* box-shadow: 0 0 3vw rgba(0,0,0, 0.6); */
 }
 
+
 iframe[name ='ya-form-5f326e33fce4f5a5f678d733']{
   width: 45vw;
 }
+.top .form{
+  display: none;
+}
+ .top .btn img{
+   margin: 20vw auto 0 20vw;
+   width: 22vw;
+   box-shadow: 0 0 10vw rgba(0,0,0, 0.4);
+ }
+ .top .btn h2{
+   font-size: 2.6vw;
+   width: 20vw;
+   position: absolute;
+   top: 26vw;
+   left: 25.5vw;
+ }
+  .top .btn h2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+  }
 
 
 
@@ -78,7 +153,7 @@ margin-top: 1.5vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-padding-top: 60vw;
+padding-top: 20vw;
 padding-left: 15vw;
 }
 .apart{
@@ -191,30 +266,40 @@ padding-left: 15vw;
 
 @media (max-width: 520px) {
 
-  header nav .underline{
+body{
+  overflow-x: hidden;
+}
+  /* header nav .underline{
     left: 70vw;
     top: 8.5vw;
     width: 22vw;
     height: 0.3vw;
-  }
-  .wrapper .top img{
+  } */
+
+  .wrapper .top > img{
     width: 100%;
     transform: scale(1.6);
     margin-top: 15vw;
   }
-  .form{
-    display: none;
+
+  .top .btn img{
+    margin: 40vw auto 0 20vw;
+    width: 40vw;
   }
-  .wrapper .form{
-    display: none;
-  
+  .top .btn h2{
+    font-size: 4vw;
+    width: 20vw;
+    position: absolute;
+    top: 52vw;
+    left: 32vw;
   }
+
 
   .wrapper .central{
     display: flex;
     flex-flow: column;
     padding-left: 24vw;
-    padding-top: 90vw;
+    padding-top: 25vw;
   }
 
   .apart{
@@ -257,7 +342,33 @@ padding-left: 15vw;
     margin-left: -9vw;
   }
 
-  iframe[name ='ya-form-5f326e33fce4f5a5f678d733']{
-    width: 65vw;
+  .central + .form{
+    display: none;
   }
+
+  /* form */
+  .overlay .form img{
+    width: 5vw;
+    margin-left: 81vw;
+    padding: 2vw;
+  }
+  .overlay .form img:last-child{
+    width: 10vw;
+    margin-left: 40vw;
+  }
+  .overlay .form{
+    width: 90vw;
+    height: 50vw;
+    margin: 60vw 0 auto 5vw;
+  }
+  .overlay h2{
+    font-size: 4vw;
+    padding: 1vw 0 1vw 0vw;
+  }
+  .overlay p{
+    text-align: center;
+    line-height: 2;
+  }
+  /* end form */
+
 }

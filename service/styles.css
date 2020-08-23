@@ -202,6 +202,9 @@ padding-top: 6vw;
 }
 
 @media (max-width: 520px){
+  .wrapper{
+  padding-top: 10vw;
+  }
  .road, iframe{
    display: none;
  }
@@ -271,19 +274,19 @@ padding-top: 6vw;
 
   .icon_1{
     left: 6vw;
-    top: 88vw;
+    top: 98vw;
   }
   .icon_2{
     left: 6vw;
-    top: 205vw;
+    top: 215vw;
   }
   .icon_3{
     left: 6vw;
-    top: 348vw;
+    top: 358vw;
   }
   .icon_4{
     left: 6vw;
-    top: 482vw;
+    top: 492vw;
   }
 
 
@@ -336,8 +339,6 @@ padding-top: 6vw;
    text-align: center;
    line-height: 2;
  }
-
-
  /* end form */
 
 
